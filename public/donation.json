@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/P1ZLSP9/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "There are many things that can be done to ensure that all people have access to clean water for children. Organizations can work to provide clean water sources, educate communities about water hygiene, and improve sanitation infrastructure. Communities can also play a role by conserving water and using it wisely.",
+        "price": "$290.00"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/xLNQTF5/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "$290.00"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/MB6XD8x/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to used clothing. Organizations can organize clothing drives, collect gently used clothing items, and distribute them to those in need. Communities can support these efforts by donating clothing and volunteering their time. Together, we can make sure everyone has warm clothes to wear.",
+        "price": "$290.00"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/bWqZWzL/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "There are many things that can be done to ensure that all people have access to better food. Governments can support local agriculture, promote healthy eating habits, and provide food assistance to those in need. Communities can establish community gardens and food banks to ensure everyone has access to nutritious food. Together, we can improve food security for all.",
+        "price": "$290.00"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/bWqZWzL/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "There are many things that can be done to ensure that all people have access to better food. Governments can support local agriculture, promote healthy eating habits, and provide food assistance to those in need. Communities can establish community gardens and food banks to ensure everyone has access to nutritious food. Together, we can improve food security for all.",
+        "price": "$290.00"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/MB6XD8x/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to used clothing. Organizations can organize clothing drives, collect gently used clothing items, and distribute them to those in need. Communities can support these efforts by donating clothing and volunteering their time. Together, we can make sure everyone has warm clothes to wear.",
+        "price": "$290.00"
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/xLNQTF5/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "$290.00"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/P1ZLSP9/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "There are many things that can be done to ensure that all people have access to clean water for children. Organizations can work to provide clean water sources, educate communities about water hygiene, and improve sanitation infrastructure. Communities can also play a role by conserving water and using it wisely.",
+        "price": "$290.00"
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/P1ZLSP9/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "There are many things that can be done to ensure that all people have access to clean water for children. Organizations can work to provide clean water sources, educate communities about water hygiene, and improve sanitation infrastructure. Communities can also play a role by conserving water and using it wisely.",
+        "price": "$290.00"
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/xLNQTF5/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "$290.00"
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/MB6XD8x/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to used clothing. Organizations can organize clothing drives, collect gently used clothing items, and distribute them to those in need. Communities can support these efforts by donating clothing and volunteering their time. Together, we can make sure everyone has warm clothes to wear.",
+        "price": "$290.00"
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/bWqZWzL/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "There are many things that can be done to ensure that all people have access to better food. Governments can support local agriculture, promote healthy eating habits, and provide food assistance to those in need. Communities can establish community gardens and food banks to ensure everyone has access to nutritious food. Together, we can improve food security for all.",
+        "price": "$290.00"
+    }
+]
