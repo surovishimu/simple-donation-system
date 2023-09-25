@@ -8,7 +8,7 @@ const Navbar = () => {
 
         <nav className="flex flex-col md:flex-row  justify-between items-center py-6 px-10">
             <Logo></Logo>
-            <ul className="flex gap-5">
+            <ul className="flex gap-5 text-xl">
                 <li>
                     <NavLink
                         to="/"
