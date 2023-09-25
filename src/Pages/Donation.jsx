@@ -4,6 +4,7 @@ import AddededCard from "./AddededCard";
 const Donation = () => {
     const [addededCard, setAddededCard] = useState([]);
     const [noFound, setNoFound] = useState('');
+    const [showAll, setShowAll] = useState(false);
     useEffect(() => {
         const card = JSON.parse(localStorage.getItem('cardList'))
 
@@ -25,14 +26,18 @@ const Donation = () => {
             {noFound ? <p className="h-[70vh] flex justify-center items-center text-xl">No data Found</p> :
                 <div>
                     {
-                        addededCard.length > 0 && <button onClick={handleRemove} className="btn btn-sm normal-case bg-red-400 rounded-sm text-white block mx-auto">Delete All</button>
+                        addededCard.length > 0 && <button onClick={handleRemove} className="btn btn-md normal-case bg-red-400 hover:bg-red-400 rounded-md text-white block mx-auto">Delete All</button>
                     }
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10 px-0 mt-10">
                         {
-                            addededCard.map(card => <AddededCard card={card} key={card.id}></AddededCard>)
+                            showAll ? addededCard.map(card => <AddededCard card={card} key={card.id}></AddededCard>) :
+                                addededCard.slice(0, 4).map(card => <AddededCard card={card} key={card.id}></AddededCard>)
                         }
 
                     </div>
+                    {
+                        addededCard.length > 4 && <button onClick={() => setShowAll(!showAll)} className="btn btn-md  normal-case bg-green-400 rounded-md text-white hover:bg-green-400  block mx-auto mt-5">{showAll ? "See Less" : "See All"}</button>
+                    }
                 </div>
             }
 
