@@ -36,7 +36,7 @@ const Donation = () => {
 
                     </div>
                     {
-                        addededCard.length > 4 && <button onClick={() => setShowAll(!showAll)} className="btn btn-md  normal-case bg-green-400 rounded-md text-white hover:bg-green-400  block mx-auto mt-5">{showAll ? "See Less" : "See All"}</button>
+                        addededCard.length > 4 && !showAll && <button onClick={() => setShowAll(!showAll)} className="btn btn-md  normal-case bg-green-400 rounded-md text-white hover:bg-green-400  block mx-auto mt-5 " >{showAll ? "See Less" : "See All"}</button>
                     }
                 </div>
             }
