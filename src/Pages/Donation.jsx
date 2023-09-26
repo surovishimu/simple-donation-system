@@ -23,12 +23,12 @@ const Donation = () => {
     }
     return (
         <div>
-            {noFound ? <p className="h-[70vh] flex justify-center items-center text-xl">No data Found</p> :
+            {noFound ? <p className="h-[80vh] flex justify-center items-center text-xl">No data Found</p> :
                 <div>
                     {
-                        addededCard.length > 0 && <button onClick={handleRemove} className="btn btn-md normal-case bg-red-400 hover:bg-red-400 rounded-md text-white block mx-auto">Delete All</button>
+                        addededCard.length > 0 && <button onClick={handleRemove} className="relative top-28 btn btn-md normal-case bg-red-400 hover:bg-red-400 rounded-md text-white block mx-auto">Delete All</button>
                     }
-                    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10 md:px-10 px-0 mt-10">
+                    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10 md:px-10 px-2 mt-36">
                         {
                             showAll ? addededCard.map(card => <AddededCard card={card} key={card.id}></AddededCard>) :
                                 addededCard.slice(0, 4).map(card => <AddededCard card={card} key={card.id}></AddededCard>)

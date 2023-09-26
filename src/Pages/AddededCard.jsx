@@ -3,9 +3,9 @@
 const AddededCard = ({ card }) => {
     const {  image, title, text_button_bg, category_bg, category, price } = card || {};
     return (
-        <div className="card card-side"style={{ backgroundColor: category_bg }}>
-            <figure><img className="h-full " src={image} alt="Movie" /></figure>
-            <div className="card-body">
+        <div className="card card-side "style={{ backgroundColor: category_bg }}>
+            <figure className="flex-1"><img className="h-full lg:w-72 md:w-80 w-48" src={image} alt="Movie" /></figure>
+            <div className="card-body flex-1">
                 <button className="btn btn-sm w-24 normal-case border-none rounded-sm" style={{ backgroundColor: category_bg, color: text_button_bg }}>{category}</button>
                 <h1 className="text-xl font-semibold">{title}</h1>
                 <h3 className="text-sm font-semibold" style={{ color: text_button_bg }} >{price}</h3>
