@@ -28,7 +28,7 @@ const Donation = () => {
                     {
                         addededCard.length > 0 && <button onClick={handleRemove} className="btn btn-md normal-case bg-red-400 hover:bg-red-400 rounded-md text-white block mx-auto">Delete All</button>
                     }
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10 px-0 mt-10">
+                    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10 md:px-10 px-0 mt-10">
                         {
                             showAll ? addededCard.map(card => <AddededCard card={card} key={card.id}></AddededCard>) :
                                 addededCard.slice(0, 4).map(card => <AddededCard card={card} key={card.id}></AddededCard>)
