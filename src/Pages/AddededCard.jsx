@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 
+
 const AddededCard = ({ card }) => {
     const { image, title, text_button_bg, category_bg, category, price } = card || {};
     return (

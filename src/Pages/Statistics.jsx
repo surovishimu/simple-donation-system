@@ -23,7 +23,7 @@ const Statistics = () => {
     ];
     const COLORS = ['#00C49F', '#FF444A'];
     const RADIAN = Math.PI / 180;
-    const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent}) => {
+    const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
         const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
         const x = cx + radius * Math.cos(-midAngle * RADIAN);
         const y = cy + radius * Math.sin(-midAngle * RADIAN);
@@ -45,7 +45,7 @@ const Statistics = () => {
                     cy={200}
                     labelLine={false}
                     label={renderCustomizedLabel}
-                    outerRadius={150}
+                    outerRadius={140}
                     fill="#8884d8"
                     dataKey="value"
                     strokeWidth={4}
