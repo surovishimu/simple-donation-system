@@ -65,9 +65,9 @@ const Navbar = () => {
                 </div>
             </div>
             {isOpen && (
-                <div className="md:hidden bg-white shadow-lg h-24 rounded-lg w-44 mx-auto text-start pl-4 ml-40">
-                    <ul className=" gap-5 text-xl">
-                        <li>
+                <div className="md:hidden bg-white shadow-lg h-32 rounded-lg w-44 mx-auto text-start pl-4 mr-5 ">
+                    <ul className="text-xl ">
+                        <li className="mb-2 pt-2">
                             <NavLink
                                 to="/"
                                 className={({ isActive, isPending }) =>
@@ -77,7 +77,7 @@ const Navbar = () => {
                                 Home
                             </NavLink>
                         </li>
-                        <li>
+                        <li className="mb-2">
                             <NavLink
                                 to="/donation"
                                 className={({ isActive, isPending }) =>

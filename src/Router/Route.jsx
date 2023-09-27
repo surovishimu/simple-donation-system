@@ -4,9 +4,7 @@ import Home from "../Pages/Home";
 import Donation from "../Pages/Donation";
 import Statistics from "../Pages/Statistics";
 import Error from "../Pages/Error";
-
-import CardBody from "../Pages/CardBody.jsx";
-
+import CardBody from "../Pages/CardBody";
 
 
 const myCreatedRoute = createBrowserRouter([
@@ -33,6 +31,7 @@ const myCreatedRoute = createBrowserRouter([
                 element: <CardBody></CardBody>,
                 loader: () => fetch('/donation.json')
             }
+
         ]
     }
 ])
