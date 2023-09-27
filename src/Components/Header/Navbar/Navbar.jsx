@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
-import React, { useState } from 'react';
+import { useState } from "react";
 
 const Navbar = () => {
 

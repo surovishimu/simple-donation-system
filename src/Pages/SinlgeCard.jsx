@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import swal from "sweetalert";
-
+import PropTypes from 'prop-types';
 
 const SinlgeCard = ({ card }) => {
     const { id, image, title, description, text_button_bg } = card || {};
@@ -15,7 +15,7 @@ const SinlgeCard = ({ card }) => {
         }
         else {
             const isExist = addededCard.find(card => card.id == id);
-            if (!isExist) {
+            if (isExist) {
                 addededCardArray.push(...addededCard, card);
                 localStorage.setItem('cardList', JSON.stringify(addededCardArray))
                 swal({
@@ -27,20 +27,14 @@ const SinlgeCard = ({ card }) => {
             }
             else {
 
+                addededCardArray.push(...addededCard, card);
+                localStorage.setItem('cardList', JSON.stringify(addededCardArray))
                 swal({
-                    title: "Donation Already Processed!",
-                    text: "Are you sure you want to proceed with another donation?",
-                    icon: "warning",
-                    buttons: true,
-                    dangerMode: true,
+                    title: "Thank you for your donation!",
+                    text: "Your contribution is greatly appreciated!",
+                    icon: "success",
+
                 })
-                    .then((willDelete) => {
-                        if (willDelete) {
-                            swal("Thank you for your donation!", "Your contribution is greatly appreciated!", {
-                                icon: "success",
-                            });
-                        }
-                    });
             }
 
         }
@@ -65,5 +59,8 @@ const SinlgeCard = ({ card }) => {
 
     );
 };
+SinlgeCard.propTypes = {
+    card: PropTypes.array.isRequired
 
+}
 export default SinlgeCard;

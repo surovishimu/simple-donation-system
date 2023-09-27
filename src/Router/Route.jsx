@@ -4,7 +4,9 @@ import Home from "../Pages/Home";
 import Donation from "../Pages/Donation";
 import Statistics from "../Pages/Statistics";
 import Error from "../Pages/Error";
-import CardDetails from "../Pages/CardDetails.jsx";
+
+import CardBody from "../Pages/CardBody.jsx";
+
 
 
 const myCreatedRoute = createBrowserRouter([
@@ -16,7 +18,7 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                loader: () => fetch('/public/donation.json')
+                loader: () => fetch('/donation.json')
             },
             {
                 path: '/donation',
@@ -28,8 +30,8 @@ const myCreatedRoute = createBrowserRouter([
             },
             {
                 path: '/cardDetails/:id',
-                element: <CardDetails></CardDetails>,
-                loader: () => fetch('/public/donation.json')
+                element: <CardBody></CardBody>,
+                loader: () => fetch('/donation.json')
             }
         ]
     }

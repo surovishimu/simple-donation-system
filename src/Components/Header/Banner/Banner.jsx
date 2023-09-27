@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 const Banner = ({ handleSearch }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -33,5 +33,8 @@ const Banner = ({ handleSearch }) => {
         </div>
     );
 };
+Banner.propTypes = {
+    handleSearch: PropTypes.func.isRequired,
 
+}
 export default Banner;

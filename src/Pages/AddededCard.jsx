@@ -1,9 +1,9 @@
-
+import PropTypes from 'prop-types';
 
 const AddededCard = ({ card }) => {
-    const {  image, title, text_button_bg, category_bg, category, price } = card || {};
+    const { image, title, text_button_bg, category_bg, category, price } = card || {};
     return (
-        <div className="card card-side "style={{ backgroundColor: category_bg }}>
+        <div className="card card-side " style={{ backgroundColor: category_bg }}>
             <figure className="flex-1"><img className="h-full lg:w-72 md:w-80 w-48" src={image} alt="Movie" /></figure>
             <div className="card-body flex-1">
                 <button className="btn btn-sm w-24 normal-case border-none rounded-sm" style={{ backgroundColor: category_bg, color: text_button_bg }}>{category}</button>
@@ -16,5 +16,7 @@ const AddededCard = ({ card }) => {
         </div>
     );
 };
-
+AddededCard.propTypes = {
+    card: PropTypes.array.isRequired
+}
 export default AddededCard;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import DonationsCard from "./DonationsCard";
-
+import PropTypes from 'prop-types';
 
 const Donations = ({ donations, searchdata }) => {
     const [cards, setCards] = useState([]);
@@ -29,5 +29,8 @@ const Donations = ({ donations, searchdata }) => {
         </div>
     );
 };
-
+Donations.propTypes = {
+    donations: PropTypes.array.isRequired,
+    searchdata: PropTypes.string.isRequired
+}
 export default Donations;
